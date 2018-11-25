@@ -7,4 +7,8 @@ public class UserService {
 
         System.out.println("我是小何");
     }
+
+    public void m1() {
+        System.out.println("我是小何");
+    }
 }
