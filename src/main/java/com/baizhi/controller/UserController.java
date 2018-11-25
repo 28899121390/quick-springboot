@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("test")
 public class UserController {
+
     @RequestMapping("test")
     public String test() {
         return "index";
