@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @RequestMapping("test")
+
+
     public String test() {
         return "index";
     }
